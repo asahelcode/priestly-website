@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  .nav-link {
+    @apply p-2.5 hover:border-b-4 hover:border-indigo-400 hover:transition-all hover:-translate-y-1 duration-200 ease-in hover:font-bold outline-0;
+  }
+}
