@@ -6,7 +6,7 @@ import Logo from "/public/images/crown2.webp";
 
 const Header: NextPage = () => {
   return (
-    <main className="sticky top-0 flex items-center justify-around py-6">
+    <main className="sticky top-0 flex items-center justify-around py-6 z-20">
       <section className="text-2xl font-bold tracking-widest">
         <span className="text-gray-400">P</span>R
         <span className="text-gray-500">I</span>E

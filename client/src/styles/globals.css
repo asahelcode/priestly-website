@@ -5,6 +5,6 @@
 
 @layer components {
   .nav-link {
-    @apply p-2.5 hover:border-b-4 hover:border-indigo-400 hover:transition-all hover:-translate-y-1 duration-200 ease-in hover:font-bold outline-0;
+    @apply p-2 hover:border-t-4 hover:border-gray-300 hover:transition-all hover:-translate-y-1 duration-300 ease-in-out hover:font-bold outline-0;
   }
 }
