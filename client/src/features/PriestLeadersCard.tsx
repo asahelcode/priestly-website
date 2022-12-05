@@ -10,18 +10,18 @@ interface CardDetail {
 
 const PriestLeaderCard = ({ img, name, post, bibleVerse, quote }) => {
   return (
-    <main className="items-top my-4 mr-10 flex w-fit items-center justify-center rounded-lg p-4">
+    <main className="my-4 flex-col w-5/6 rounded-lg p-4 mx-auto">
       <img
         src={img}
         alt=""
-        className="h-2/5 w-1/6 rounded-md object-cover shadow-lg"
+        className="h-4/5 w-full object-cover rounded-md shadow-lg"
       />
-      <div className="mt-6 ml-10 w-2/5 ">
-        <section className="text-2xl text-gray-600">"{quote}"</section>
-        <div className="mt-4 leading-8">
-          <section>Name: {name}</section>
-          <section>Post: {post}</section>
-          <section>Bible Verse: {bibleVerse}</section>
+      <div className="mt-6 shadow-md p-4 rounded-sm">
+        <section className="text-xl font-bold text-gray-600">"{quote}"</section>
+        <div className="mt-4 leading-8 text-sm italic font-bold">
+          <section>Name : {name}</section>
+          <section>Post : {post}</section>
+          <section>Bible Verse : {bibleVerse}</section>
         </div>
       </div>
     </main>
