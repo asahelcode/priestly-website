@@ -1,8 +1,10 @@
-import React from "react";
+import Image from 'next/image';
+
+import FamilyPic from '/public/images/family.webp';
 
 const GroupPic = () => {
-  return <main className="ml-36 mt-8 h-2/6">
-
+  return <main className=" w-5/6 rounded-lg p-4 mx-auto object-contain">
+    <Image src={FamilyPic} alt="" height={100} width={300}/>
   </main>;
 };
 
