@@ -5,7 +5,7 @@ import data from "../data/testimonial.json";
 
 const Testimonial = () => {
   return (
-    <main className="ml-36 mt-8">
+    <main className="mt-8">
       {data.map((d) => (
         <PriestLeaderCard
           img={d.img}
